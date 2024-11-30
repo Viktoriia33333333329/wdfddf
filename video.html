@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медіатека - Мій домашній улюбленець</title>
+    <style>
+        /* Основне оформлення */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: url('ldghT2L.png') repeat; /* Локальний файл фону */
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            color: #2a9df4;
+            text-shadow: 1px 1px 2px #888888;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 800px;
+            padding: 20px;
+            border: 3px solid black;
+            border-radius: 15px;
+            background-color: white;
+        }
+        h2 {
+            font-size: 28px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .media-section {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 20px;
+        }
+        .media-box {
+            width: 150px;
+            text-align: center;
+        }
+        .media-box img {
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .media-box img:hover {
+            transform: scale(1.1);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.5);
+        }
+        .media-box p {
+            margin-top: 10px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Заголовок -->
+        <h1>Viktoriia Kyslytsia</h1>
+
+        <!-- Розділ Медіатеки -->
+        <h2>Медіатека</h2>
+        <div class="media-section">
+            <!-- Блок музики -->
+            <div class="media-box">
+                <a href="my-pet-story.mp3" target="_blank">
+                    <img src="1XvRlmR.png" alt="Музика"> <!-- Локальний файл -->
+                </a>
+                <p>Музика</p>
+            </div>
+
+            <!-- Блок відео -->
+            <div class="media-box">
+                <a href="my-pet-video.mp4" target="_blank">
+                    <img src="DqBZhZ9.png" alt="Відео"> <!-- Локальний файл -->
+                </a>
+                <p>Відео</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Нижня частина сторінки -->
+    <footer>
+        <p>&copy; 2024 Viktoriia Kyslytsia</p>
+    </footer>
+</body>
+</html>
